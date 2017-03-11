@@ -2,9 +2,11 @@
 
 import _ from 'lodash';
 import $ from  'jquery';
+import BackboneEvents from 'backbone-events';
 
 export default class CoreController {
   constructor(element) {
+    _.extend(this, BackboneEvents);
     this.bindRootElement(element);
     this.bindRootTemplate();
     this.componentWillMount();

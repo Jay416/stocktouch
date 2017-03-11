@@ -17,7 +17,7 @@ export default class RootController extends CoreController{
       { selector: '.level-1', field: 'level1' },
       { selector: '.level-2', field: 'level2' },
       { selector: '.level-3', field: 'level3' },
-      { selector: '.level-4', field: 'level4' },
+      { selector: '.level-4', field: 'level4' }
     ];
   }
 
@@ -25,11 +25,11 @@ export default class RootController extends CoreController{
 
   }
 
-  // render() {
-  //   this.rootElement.append(this.tempalte());
-  // }
+  render() {
+    this.rootElement.append(this.tempalte());
+  }
 
   componentDidMount() {
-    debugger;
+    // debugger;
   }
 }
