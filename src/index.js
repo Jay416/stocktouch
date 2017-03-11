@@ -6,7 +6,7 @@ import 'babel-polyfill';
 
 import './a.assets';
 
-import RootController from './d.controller/root';
+import RootController from './d.controller/root.controller';
 
 (new RootController(document.getElementById('root')));
 
