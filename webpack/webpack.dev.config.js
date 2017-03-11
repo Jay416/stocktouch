@@ -55,7 +55,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loaders: ['babel', 'eslint-loader']
       },
-      // {test: /\.html$/, loaders: ['html']},
+      {test: /\.html$/, loaders: ['html']},
       {test: /\.css$/, loaders: ['style', 'css?sourceMap']},
       {test: /\.styl$/, loaders: ['style', 'css?sourceMap', 'stylus?sourceMap']},
       {test: /\.less$/, loaders: ['style', 'css?sourceMap', 'less?sourceMap']},

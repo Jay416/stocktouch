@@ -3,13 +3,13 @@
 // import _ from 'lodash';
 // import $ from  'jquery';
 
-// import rootTemplate from '../c.view/root.html';
+import rootTemplate from '../c.view/root.html';
 
 import CoreController from '../e.utils/core-controller';
 
 export default class RootController extends CoreController{
   getTemplate() {
-    return '<span>RootController</span>';
+    return rootTemplate;
   }
 
   getBindElements() {
