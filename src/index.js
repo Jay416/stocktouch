@@ -6,6 +6,10 @@ import 'babel-polyfill';
 
 import './a.assets';
 
+import RootController from './d.controller/root';
+
+(new RootController(document.getElementById('root')));
+
 const clickElement = document.getElementsByClassName('click');
 _.forEach(clickElement, (element) => {
   element.addEventListener('click', (e) => {
